@@ -33,6 +33,7 @@ Simple flutter application
 
 **widgets/add-new-post.dart**:
 - класс AddNewPostWidget (виджет по добавлению нового поста)
+- класс _AddNewPostState (класс, отвечающий за состояние виджета по добавлению нового поста) 
 
 **widgets/gallery.dart**:
 - класс GalleryWidget (виджет, отображающий страницу "Галерея" с моковыми данными;
@@ -46,4 +47,5 @@ Simple flutter application
   на любое из фото происходит отображение виджета PostDetails)
 
 **widgets/settings.dart**:
-- класс GalleryWidget (виджет по изменению пользовательской информации)
+- класс SettingsWidget (виджет по изменению пользовательской информации)
+- класс _SettingsState (класс, отвечающий за состояние виджета по изменению пользовательской информации) 
