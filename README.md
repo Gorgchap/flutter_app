@@ -6,9 +6,10 @@ Simple flutter application
 Файл apk/app-debug.apk
 
 ## Демо видео
-Файл videos/Flutter app demo.mp4
+Файл videos/Flutter app demo.mp4 (https://www.youtube.com/watch?v=zvoZOQlEXIk)
 
 ## Комментарии по кодовой базе приложения (директория lib)
+https://www.youtube.com/watch?v=5KJxIsRtw04
 
 **main.dart**
 - метод main (запуск приложения, определяет два провайдера: PostsModel и SettingsModel)
@@ -36,8 +37,8 @@ Simple flutter application
 - класс _AddNewPostState (класс, отвечающий за состояние виджета по добавлению нового поста) 
 
 **widgets/gallery.dart**:
-- класс GalleryWidget (виджет, отображающий страницу "Галерея" с моковыми данными;
-  при нажатии на любое фото происходит его отдельный просмотр с возможностью зума)
+- класс GalleryWidget (виджет, отображающий страницу "Галерея" с моковыми данными)
+- класс _GalleryItem (при нажатии на любое фото из галереи происходит его отдельный просмотр с возможностью зума)
 
 **widgets/posts-details.dart**:
 - класс PostDetails (виджет, отображающий страницу с полной информацией о посте)
